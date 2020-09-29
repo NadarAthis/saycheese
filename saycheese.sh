@@ -6,14 +6,17 @@
 trap 'printf "\n";stop' 2
 
 banner() {
+s
+a
+y
+c
+h
+e
+e
+s
+e
 
-
-SAYCHEESE
-SAYCHEESE
-SAYCHEESE
-SAYCHEESE
-SAYCHEESE
-printf " \e[1;77m v1.0 coded by github.com/NadarAthis/saycheese\e[0m \n"
+printf " \e[saycheese v1.0 coded by github.com/NadarAthis/saycheese\e[0m \n"
 
 printf "\n"
 
