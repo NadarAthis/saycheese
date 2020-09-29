@@ -6,15 +6,12 @@
 trap 'printf "\n";stop' 2
 
 banner() {
-s
-a
-y
-c
-h
-e
-e
-s
-e
+printf "\e[1;999m  ____              \e[0m\e[1;77m ____ _                          \e[0m\n"
+printf "\e[1;999m / ___|  __ _ _   _ \e[0m\e[1;77m/ ___| |__   ___  ___  ___  ___  \e[0m\n"
+printf "\e[1;999m \___ \ / _\` | | | \e[0m\e[1;77m| |   | '_ \ / _ \/ _ \/ __|/ _ \ \e[0m\n"
+printf "\e[1;999m  ___) | (_| | |_| |\e[0m\e[1;77m |___| | | |  __/  __/\__ \  __/ \e[0m\n"
+printf "\e[1;999m |____/ \__,_|\__, |\e[0m\e[1;77m\____|_| |_|\___|\___||___/\___| \e[0m\n"
+printf "\e[1;999m              |___/ \e[0m                                 \n"
 
 printf " \e[saycheese v1.0 coded by github.com/NadarAthis/saycheese\e[0m \n"
 
